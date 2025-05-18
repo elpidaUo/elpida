@@ -15,7 +15,7 @@ resmi geri bildirim ve iletişim platformudur.
 
 ### 🔧 Hata Bildirimi (Issue > Hata Bildirimi)
 Oyun sırasında karşılaştığınız teknik ya da mantıksal hataları bizimle paylaşın.  
-→ [Yeni Hata Bildir](https://github.com/elpidaUo/elpida/issues/new?template=hata-bildirimi.md)
+→ [Yeni Hata Bildir](https://github.com/elpidaUo/elpida/issues/new?template=bug_report.md)
 
 ### 💡 Öneri / Geliştirme Talebi (Issue > Öneri / İstek)
 Yeni sistemler, kalite-of-life iyileştirmeleri veya içerik fikirlerinizi sunun.  
