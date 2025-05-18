@@ -1,38 +1,45 @@
----
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
+name: Hata Bildirimi
+description: Oyun sırasında karşılaştığınız bir hatayı bildirin.
+title: "[HATA] Kısa açıklama"
+labels: [oyuncu-hatasi]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🔧 Hata Bildirim Formu
 
----
+        Karşılaştığınız hatayı aşağıdaki alanları doldurarak bize bildirin. Teşekkür ederiz!
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Ne Oldu?
+      description: Hatayı anlatın. Ne yaptığınızda ortaya çıktı?
+      placeholder: Örneğin: "Evimin kapısından çıkarken oyun dondu."
+    validations:
+      required: true
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+  - type: input
+    id: when
+    attributes:
+      label: Ne Zaman Oldu?
+      placeholder: Örnek: 18 Mayıs 2025, saat 15:30 civarı
+    validations:
+      required: false
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+  - type: textarea
+    id: how-to-reproduce
+    attributes:
+      label: Tekrar Ediyor mu?
+      description: Aynı şeyi tekrar yapınca yine oluyor mu?
+      placeholder: "Evet, her zaman oluyor / Hayır, bir kez oldu"
+    validations:
+      required: false
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+  - type: input
+    id: player-name
+    attributes:
+      label: Oyuncu Adınız
+      placeholder: Oyundaki karakter isminiz
+    validations:
+      required: false
