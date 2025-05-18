@@ -1,20 +1,20 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: ''
+name: Öneri / İstek
+about: Bu oyun için bir fikir veya öneri sunun
+title: '[ÖNERİ] '
+labels: 'oyuncu-onerisi'
 assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**Bu öneri bir sorunla mı ilgili? Lütfen açıklayın.**  
+Kısa ve net şekilde problemi tanımlayın. Örn: "Bankadaki eşyalarımı düzenlemek zor."
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+**Nasıl bir çözüm öneriyorsunuz?**  
+Ne yapılmasını istiyorsunuz? Açık ve net bir şekilde anlatın.
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+**Alternatif düşündüğünüz çözümler varsa yazın**  
+Benzer başka çözüm yolları aklınıza geldiyse burada paylaşın.
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+**Eklemek istediğiniz başka bir şey var mı?**  
+Ekran görüntüsü, örnek senaryo, önceki konuşma vb. varsa buraya ekleyin.
